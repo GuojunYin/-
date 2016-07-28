@@ -1,0 +1,382 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE-edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="css/public.css"/>
+<link rel="stylesheet" type="text/css" href="css/green.css"/>
+<link href="http://libs.baidu.com/fontawesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+<script type="text/javascript" src="js/adaptive.js"></script>
+<script type="text/javascript" src="js/move.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script>
+initViewport()
+window.onload=function(){
+	myAddEvent(document,'load',[slide(),menu()]);
+}
+</script>
+</head>
+
+<body>
+<div class="Center">
+  <div class="TopText">中国书法家协会旗下网站 河北省美术馆唯一指定作品发布平台</div>
+</div>
+<div class="Menu MinWidth">
+  <div class="Center">
+    <div class="MenuLeft L Hid">
+      <div class="Logo L" id="Logo"><img src="images/Logo.png" width="154" height="40" /></div>
+      <div class="MenuList" id="Menu1"><a href="#">首页</a><a href="#">资讯</a><a href="#">作品</a><a href="#" class="active">名家</a><a href="#">画廊</a><a href="#">展览</a><a href="#">图书</a><a href="#">视频</a><a href="#">观点</a></div>
+    </div>
+    <div class="MenuRight R">
+      <div class="SearchBox">
+        <input type="button" value=""/>
+        <input type="text" onfocus="if(this.value=='请输入您想查找的画作名称、作者……'){this.value='';}"  onblur="if(this.value==''){this.value='请输入您想查找的画作名称、作者……';}" value="请输入您想查找的画作名称、作者……"/>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="Center">
+  <div class="BannerBox MinWidth Hid">
+    <div class="BannerLeft L">
+      <div id="playimages">
+        <ul class="big_pic">
+          <li style="z-index:1;"><a href="#"><img src="images/1.jpg" /></a></li>
+          <li><a href="#"><img src="images/2.jpg" /></a></li>
+          <li><a href="#"><img src="images/3.jpg" /></a></li>
+          <li><a href="#"><img src="images/1.jpg" /></a></li>
+          <li><a href="#"><img src="images/2.jpg" /></a></li>
+          <li><a href="#"><img src="images/3.jpg" /></a></li>
+        </ul>
+        <div class="small_pic">
+          <div class="prev"></div>
+          <div class="next"></div>
+          <div class="small_pic_box">
+            <ul>
+              <li class="active"><img src="images/1.jpg" /></li>
+              <li><a href="#"><img src="images/2.jpg" /></a></li>
+              <li><a href="#"><img src="images/3.jpg" /></a></li>
+              <li><a href="#"><img src="images/1.jpg" /></a></li>
+              <li><a href="#"><img src="images/2.jpg" /></a></li>
+              <li><a href="#"><img src="images/3.jpg" /></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="TuiBox">
+        <h1><cite><a href="#"><img src="images/MoreImg.png" width="35" height="24" /></a></cite>展览推荐<span>推荐国内外近期优秀展览</span></h1>
+        <ul>
+          <li><a href="#"><img src="images/TuiImg1.jpg" width="180" />
+            <p class="txt">中华艺术宫</p>
+            </a></li>
+          <li><a href="#"><img src="images/TuiImg1.jpg" width="180"/>
+            <p class="txt">中华艺术宫</p>
+            </a></li>
+          <li><a href="#"><img src="images/TuiImg1.jpg" width="180"/>
+            <p class="txt">中华艺术宫</p>
+            </a></li>
+          <li><a href="#"><img src="images/TuiImg1.jpg" width="180"/>
+            <p class="txt">中华艺术宫</p>
+            </a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="BannerRight R">
+      <div class="RightBox">
+        <div class="InNewsBox">
+          <div class="title"><cite>WHAT’S THE NEWS</cite>今日头条</div>
+          <div class="TopNews">
+            <div class="tip"><cite><a href="#">往期头条</a><a href="#">滚动新闻</a></cite>“藏家旅行记”系列选题之一</div>
+            <h1><a href="#">徐震：我们是一路被骂大的</a></h1>
+            <div class="desc">　　<a href="#">在法国巴黎，也许你知道埃菲尔铁塔与卢浮宫，但是你是否知道梵高曾经呆过的小酒馆?毕加索曾经喝过茶的咖啡厅?莫迪……</a></div>
+          </div>
+          <ul class="InNewsList">
+            <li class="flag">[雅昌圆桌]<a href="#">福柯在中国 警惕艺术理论和艺术创作僵化</a></li>
+            <li>[专访]<a href="#">叶甫纳：“指甲之火”可以燎原 会慢慢做出来</a></li>
+            <li>[专稿]<a href="#">西岸自由港：上海艺术的下一个生发地</a></li>
+            <li class="flag">[雅昌圆桌]<a href="#">福柯在中国 警惕艺术理论和艺术创作僵化</a></li>
+            <li>[专访]<a href="#">叶甫纳：“指甲之火”可以燎原 会慢慢做出来</a></li>
+            <li>[专稿]<a href="#">西岸自由港：上海艺术的下一个生发地</a></li>
+            <li class="flag">[雅昌圆桌]<a href="#">福柯在中国 警惕艺术理论和艺术创作僵化</a></li>
+            <li>[专访]<a href="#">叶甫纳：“指甲之火”可以燎原 会慢慢做出来</a></li>
+            <li>[专稿]<a href="#">西岸自由港：上海艺术的下一个生发地</a></li>
+          </ul>
+        </div>
+        <div class="InMovesBox">
+          <div class="title"><cite>更多>></cite>视频</div>
+          <ul>
+            <li class="L">
+              <p><img src="images/MoveImg.jpg" width="170" height="120" /></p>
+              <p class="name">[视频专访] 艺海扬帆—吴
+                广的诗书画印</p>
+            </li>
+            <li class="R">
+              <p><img src="images/MoveImg.jpg" width="170" height="120" /></p>
+              <p class="name">[视频专访] 艺海扬帆—吴
+                广的诗书画印</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="Menu2" id="Menu2">
+      <ul>
+        <li><a href="#">书法家1</a> <a href="#">国画家</a> <a href="#">版画家</a> <a href="#">大师辞典</a></li>
+        <li><a href="#">书法家2</a> <a href="#">国画家</a> <a href="#">版画家</a> <a href="#">大师辞典</a></li>
+        <li><a href="#">书法家3</a> <a href="#">国画家</a> <a href="#">版画家</a> <a href="#">大师辞典</a></li>
+        <li><a href="#">书法家4</a> <a href="#">国画家</a> <a href="#">版画家</a> <a href="#">大师辞典</a></li>
+        <li><a href="#">书法家5</a> <a href="#">国画家</a> <a href="#">版画家</a> <a href="#">大师辞典</a></li>
+        <li><a href="#">书法家6</a> <a href="#">国画家</a> <a href="#">版画家</a> <a href="#">大师辞典</a></li>
+        <li><a href="#">书法家7</a> <a href="#">国画家</a> <a href="#">版画家</a> <a href="#">大师辞典</a></li>
+        <li><a href="#">书法家8</a> <a href="#">国画家</a> <a href="#">版画家</a> <a href="#">大师辞典</a></li>
+        <li><a href="#">书法家9</a> <a href="#">国画家</a> <a href="#">版画家</a> <a href="#">大师辞典</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="TuiBox">
+    <h1><cite><a href="#">国画</a> <a href="#">书法</a> <a href="#">版画</a> <a href="#">名家分类</a> <a href="#">最新更新</a> <a href="#">最新上线</a> <a href="#">点击排行</a></cite>名家<span>中国传统书画艺术家</span></h1>
+    <ul>
+      <li><a href="#"><img src="images/TuiImg2.jpg" width="180" />
+        <p class="txt">中国书画名家,孙菊生</p>
+        </a></li>
+      <li><a href="#"><img src="images/TuiImg3.jpg" width="180"/>
+        <p class="txt">中国现代中国画画家,王梦白</p>
+        </a></li>
+      <li><a href="#"><img src="images/TuiImg4.jpg" width="180"/>
+        <p class="txt">天津美术学院副教授,贾广健</p>
+        </a></li>
+      <li><a href="#"><img src="images/TuiImg2.jpg" width="180" />
+        <p class="txt">中国书画名家,孙菊生</p>
+        </a></li>
+      <li><a href="#"><img src="images/TuiImg3.jpg" width="180"/>
+        <p class="txt">中国现代中国画画家,王梦白</p>
+        </a></li>
+      <li><a href="#"><img src="images/TuiImg4.jpg" width="180"/>
+        <p class="txt">天津美术学院副教授,贾广健</p>
+        </a></li>
+    </ul>
+  </div>
+  <div class="TuiBox">
+    <h1><cite><span>类型：</span><a href="#" class="active">全部</a> <a href="#">国画</a> <a href="#">书法</a> <span>题材：</span><a href="#" class="active">全部</a><a href="#">人物</a> <a href="#">山水</a> <a href="#">花鸟</a> <a href="#">工笔</a> <a href="#">写意</a> <a href="#">白描</a> <a href="#">水墨</a> <a href="#">设色</a> <a href="#">重彩</a></cite>作品<span>中国传统书画艺术</span></h1>
+    <dl>
+      <dd><a href="#" class="zuopin"><img src="images/zuopin.jpg" width="280"/>
+        <p class="type">书法作品</p>
+        </a>
+        <p class="name"><cite>题材：单张竖屏</cite><a href="#">丹青画意图</a></p>
+        <p class="person"><cite>7小时前</cite><span><img src="images/touxiang.jpg" width="30" height="30" /></span>璐依依</p>
+        <p class="record"><cite><span><i class="fa fa-eye fa-fw"></i>460</span><span><i class="fa fa-star"></i>5</span><span><i class="fa fa-comment"></i>0</span></cite></p>
+      </dd>
+      <dd><a href="#" class="zuopin"><img src="images/zuopin.jpg" width="280"/>
+        <p class="type">书法作品</p>
+        </a>
+        <p class="name"><cite>题材：单张竖屏</cite><a href="#">丹青画意图</a></p>
+        <p class="person"><cite>7小时前</cite><span><img src="images/touxiang.jpg" width="30" height="30" /></span>璐依依</p>
+        <p class="record"><cite><span><i class="fa fa-eye fa-fw"></i>460</span><span><i class="fa fa-star"></i>5</span><span><i class="fa fa-comment"></i>0</span></cite></p>
+      </dd>
+      <dd><a href="#" class="zuopin"><img src="images/zuopin.jpg" width="280"/>
+        <p class="type">书法作品</p>
+        </a>
+        <p class="name"><cite>题材：单张竖屏</cite><a href="#">丹青画意图</a></p>
+        <p class="person"><cite>7小时前</cite><span><img src="images/touxiang.jpg" width="30" height="30" /></span>璐依依</p>
+        <p class="record"><cite><span><i class="fa fa-eye fa-fw"></i>460</span><span><i class="fa fa-star"></i>5</span><span><i class="fa fa-comment"></i>0</span></cite></p>
+      </dd>
+      <dd><a href="#" class="zuopin"><img src="images/zuopin.jpg" width="280"/>
+        <p class="type">书法作品</p>
+        </a>
+        <p class="name"><cite>题材：单张竖屏</cite><a href="#">丹青画意图</a></p>
+        <p class="person"><cite>7小时前</cite><span><img src="images/touxiang.jpg" width="30" height="30" /></span>璐依依</p>
+        <p class="record"><cite><span><i class="fa fa-eye fa-fw"></i>460</span><span><i class="fa fa-star"></i>5</span><span><i class="fa fa-comment"></i>0</span></cite></p>
+      </dd>
+      <dd><a href="#" class="zuopin"><img src="images/zuopin.jpg" width="280"/>
+        <p class="type">书法作品</p>
+        </a>
+        <p class="name"><cite>题材：单张竖屏</cite><a href="#">丹青画意图</a></p>
+        <p class="person"><cite>7小时前</cite><span><img src="images/touxiang.jpg" width="30" height="30" /></span>璐依依</p>
+        <p class="record"><cite><span><i class="fa fa-eye fa-fw"></i>460</span><span><i class="fa fa-star"></i>5</span><span><i class="fa fa-comment"></i>0</span></cite></p>
+      </dd>
+      <dd><a href="#" class="zuopin"><img src="images/zuopin.jpg" width="280"/>
+        <p class="type">书法作品</p>
+        </a>
+        <p class="name"><cite>题材：单张竖屏</cite><a href="#">丹青画意图</a></p>
+        <p class="person"><cite>7小时前</cite><span><img src="images/touxiang.jpg" width="30" height="30" /></span>璐依依</p>
+        <p class="record"><cite><span><i class="fa fa-eye fa-fw"></i>460</span><span><i class="fa fa-star"></i>5</span><span><i class="fa fa-comment"></i>0</span></cite></p>
+      </dd>
+      <dd><a href="#" class="zuopin"><img src="images/zuopin.jpg" width="280"/>
+        <p class="type">书法作品</p>
+        </a>
+        <p class="name"><cite>题材：单张竖屏</cite><a href="#">丹青画意图</a></p>
+        <p class="person"><cite>7小时前</cite><span><img src="images/touxiang.jpg" width="30" height="30" /></span>璐依依</p>
+        <p class="record"><cite><span><i class="fa fa-eye fa-fw"></i>460</span><span><i class="fa fa-star"></i>5</span><span><i class="fa fa-comment"></i>0</span></cite></p>
+      </dd>
+      <dd><a href="#" class="zuopin"><img src="images/zuopin.jpg" width="280"/>
+        <p class="type">书法作品</p>
+        </a>
+        <p class="name"><cite>题材：单张竖屏</cite><a href="#">丹青画意图</a></p>
+        <p class="person"><cite>7小时前</cite><span><img src="images/touxiang.jpg" width="30" height="30" /></span>璐依依</p>
+        <p class="record"><cite><span><i class="fa fa-eye fa-fw"></i>460</span><span><i class="fa fa-star"></i>5</span><span><i class="fa fa-comment"></i>0</span></cite></p>
+      </dd>
+      <dd><a href="#" class="zuopin"><img src="images/zuopin.jpg" width="280"/>
+        <p class="type">书法作品</p>
+        </a>
+        <p class="name"><cite>题材：单张竖屏</cite><a href="#">丹青画意图</a></p>
+        <p class="person"><cite>7小时前</cite><span><img src="images/touxiang.jpg" width="30" height="30" /></span>璐依依</p>
+        <p class="record"><cite><span><i class="fa fa-eye fa-fw"></i>460</span><span><i class="fa fa-star"></i>5</span><span><i class="fa fa-comment"></i>0</span></cite></p>
+      </dd>
+      <dd><a href="#" class="zuopin"><img src="images/zuopin.jpg" width="280"/>
+        <p class="type">书法作品</p>
+        </a>
+        <p class="name"><cite>题材：单张竖屏</cite><a href="#">丹青画意图</a></p>
+        <p class="person"><cite>7小时前</cite><span><img src="images/touxiang.jpg" width="30" height="30" /></span>璐依依</p>
+        <p class="record"><cite><span><i class="fa fa-eye fa-fw"></i>460</span><span><i class="fa fa-star"></i>5</span><span><i class="fa fa-comment"></i>0</span></cite></p>
+      </dd>
+      <dd><a href="#" class="zuopin"><img src="images/zuopin.jpg" width="280"/>
+        <p class="type">书法作品</p>
+        </a>
+        <p class="name"><cite>题材：单张竖屏</cite><a href="#">丹青画意图</a></p>
+        <p class="person"><cite>7小时前</cite><span><img src="images/touxiang.jpg" width="30" height="30" /></span>璐依依</p>
+        <p class="record"><cite><span><i class="fa fa-eye fa-fw"></i>460</span><span><i class="fa fa-star"></i>5</span><span><i class="fa fa-comment"></i>0</span></cite></p>
+      </dd>
+      <dd><a href="#" class="zuopin"><img src="images/zuopin.jpg" width="280"/>
+        <p class="type">书法作品</p>
+        </a>
+        <p class="name"><cite>题材：单张竖屏</cite><a href="#">丹青画意图</a></p>
+        <p class="person"><cite>7小时前</cite><span><img src="images/touxiang.jpg" width="30" height="30" /></span>璐依依</p>
+        <p class="record"><cite><span><i class="fa fa-eye fa-fw"></i>460</span><span><i class="fa fa-star"></i>5</span><span><i class="fa fa-comment"></i>0</span></cite></p>
+      </dd>
+      <dd><a href="#" class="zuopin"><img src="images/zuopin.jpg" width="280"/>
+        <p class="type">书法作品</p>
+        </a>
+        <p class="name"><cite>题材：单张竖屏</cite><a href="#">丹青画意图</a></p>
+        <p class="person"><cite>7小时前</cite><span><img src="images/touxiang.jpg" width="30" height="30" /></span>璐依依</p>
+        <p class="record"><cite><span><i class="fa fa-eye fa-fw"></i>460</span><span><i class="fa fa-star"></i>5</span><span><i class="fa fa-comment"></i>0</span></cite></p>
+      </dd>
+      <dd><a href="#" class="zuopin"><img src="images/zuopin.jpg" width="280"/>
+        <p class="type">书法作品</p>
+        </a>
+        <p class="name"><cite>题材：单张竖屏</cite><a href="#">丹青画意图</a></p>
+        <p class="person"><cite>7小时前</cite><span><img src="images/touxiang.jpg" width="30" height="30" /></span>璐依依</p>
+        <p class="record"><cite><span><i class="fa fa-eye fa-fw"></i>460</span><span><i class="fa fa-star"></i>5</span><span><i class="fa fa-comment"></i>0</span></cite></p>
+      </dd>
+      <dd><a href="#" class="zuopin"><img src="images/zuopin.jpg" width="280"/>
+        <p class="type">书法作品</p>
+        </a>
+        <p class="name"><cite>题材：单张竖屏</cite><a href="#">丹青画意图</a></p>
+        <p class="person"><cite>7小时前</cite><span><img src="images/touxiang.jpg" width="30" height="30" /></span>璐依依</p>
+        <p class="record"><cite><span><i class="fa fa-eye fa-fw"></i>460</span><span><i class="fa fa-star"></i>5</span><span><i class="fa fa-comment"></i>0</span></cite></p>
+      </dd>
+      <dd><a href="#" class="zuopin"><img src="images/zuopin.jpg" width="280"/>
+        <p class="type">书法作品</p>
+        </a>
+        <p class="name"><cite>题材：单张竖屏</cite><a href="#">丹青画意图</a></p>
+        <p class="person"><cite>7小时前</cite><span><img src="images/touxiang.jpg" width="30" height="30" /></span>璐依依</p>
+        <p class="record"><cite><span><i class="fa fa-eye fa-fw"></i>460</span><span><i class="fa fa-star"></i>5</span><span><i class="fa fa-comment"></i>0</span></cite></p>
+      </dd>
+    </dl>
+  </div>
+  <div class="TuiBox Margin-20">
+    <h1><cite><a href="#">更多>></a></cite>推荐画廊<span>优秀的书画艺术经营场所</span></h1>
+    <div class="Hid" style="margin-right:-20px;">
+      <div class="Gallery">
+        <div class="box">
+          <div class="GalleryTop">
+            <div class="Hid">
+              <div class="left L"><span><img src="images/touxiang2.jpg" width="50" /></span>福泽轩画廊<br/>
+                <i>山东-青州</i></div>
+              <div class="right R Hid"> <span>15303<br/>
+                人气</span><cite><a href="#"><i class="fa fa-plus-circle"></i>关注</a></cite> </div>
+            </div>
+          </div>
+          <div class="GalleryImg">
+            <div class="Hid" style="margin-right:-12px;">
+              <div class="img"><img src="images/GalleryImg.png"/></div>
+              <div class="img"><img src="images/GalleryImg.png"/></div>
+              <div class="img"><img src="images/GalleryImg.png" /></div>
+              <div class="img"><img src="images/GalleryImg.png"/></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Gallery">
+        <div class="box">
+          <div class="GalleryTop">
+            <div class="Hid">
+              <div class="left L"><span><img src="images/touxiang2.jpg" width="50" /></span>福泽轩画廊<br/>
+                <i>山东-青州</i></div>
+              <div class="right R Hid"> <span>15303<br/>
+                人气</span><cite><a href="#"><i class="fa fa-plus-circle"></i>关注</a></cite> </div>
+            </div>
+          </div>
+          <div class="GalleryImg">
+            <div class="Hid" style="margin-right:-12px;">
+              <div class="img"><img src="images/GalleryImg.png"/></div>
+              <div class="img"><img src="images/GalleryImg.png"/></div>
+              <div class="img"><img src="images/GalleryImg.png" /></div>
+              <div class="img"><img src="images/GalleryImg.png"/></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Gallery">
+        <div class="box">
+          <div class="GalleryTop">
+            <div class="Hid">
+              <div class="left L"><span><img src="images/touxiang2.jpg" width="50" /></span>福泽轩画廊<br/>
+                <i>山东-青州</i></div>
+              <div class="right R Hid"> <span>15303<br/>
+                人气</span><cite><a href="#"><i class="fa fa-plus-circle"></i>关注</a></cite> </div>
+            </div>
+          </div>
+          <div class="GalleryImg">
+            <div class="Hid" style="margin-right:-12px;">
+              <div class="img"><img src="images/GalleryImg.png"/></div>
+              <div class="img"><img src="images/GalleryImg.png"/></div>
+              <div class="img"><img src="images/GalleryImg.png" /></div>
+              <div class="img"><img src="images/GalleryImg.png"/></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Gallery">
+        <div class="box">
+          <div class="GalleryTop">
+            <div class="Hid">
+              <div class="left L"><span><img src="images/touxiang2.jpg" width="50" /></span>福泽轩画廊<br/>
+                <i>山东-青州</i></div>
+              <div class="right R Hid"> <span>15303<br/>
+                人气</span><cite><a href="#"><i class="fa fa-plus-circle"></i>关注</a></cite> </div>
+            </div>
+          </div>
+          <div class="GalleryImg">
+            <div class="Hid" style="margin-right:-12px;">
+              <div class="img"><img src="images/GalleryImg.png"/></div>
+              <div class="img"><img src="images/GalleryImg.png"/></div>
+              <div class="img"><img src="images/GalleryImg.png" /></div>
+              <div class="img"><img src="images/GalleryImg.png"/></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="TuiBox Margin-20">
+    <h1>品牌联盟</h1>
+    <div class="BrandList">
+      <div class="Hid" style="margin-right:-20px;">
+        <div class="img"><span><img src="images/BrandImg.jpg"/></span></div>
+        <div class="img"><span><img src="images/BrandImg.jpg"/></span></div>
+        <div class="img"><span><img src="images/BrandImg.jpg"/></span></div>
+        <div class="img"><span><img src="images/BrandImg.jpg"/></span></div>
+        <div class="img"><span><img src="images/BrandImg.jpg"/></span></div>
+        <div class="img"><span><img src="images/BrandImg.jpg"/></span></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="FooterMenu MinWidth">
+  <div class="Center"><cite><a href="#" class="BackTop">返回顶部</a></cite> <a href="#">网站首页</a> <a href="#">关于我们</a> <a href="#">联系方式</a> <a href="#">法律条款</a> <a href="#">帮助中心</a> <a href="#">意见反馈</a> <a href="#">友情链接</a></div>
+</div>
+<div class="Footer MinWidth"> Copyright © 2006-2010 shuhuachina.cn Incorporated. All rights reserved.<br/>
+  版权所有 2006-2015 书画中国（ShuhuaChina.cn） 最佳分辨率 1280×800 冀ICP备09010287号 </div>
+</body>
+</html>
